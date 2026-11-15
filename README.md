@@ -3,7 +3,7 @@
 127 个课本单词与短语的认读、英语听写、中文默写和错词复习，面向 iPad，同时支持手机和 PC。由原有本地单文件网页迁入，原文件保留。
 
 - 公开源码：https://github.com/ZhiYanRen/word-house
-- 正式网站：首次部署中，验证成功后回填。
+- 正式网站：https://zhiyanren.github.io/word-house/ （已部署并访问验证）。
 - 应用岛：https://zhiyanren.github.io/app-island/
 - 纯静态 HTML/CSS/JavaScript，无后端、账号或远程数据库。
 

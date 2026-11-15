@@ -107,7 +107,7 @@
 ## 9. 单词小屋实际配置
 
 - 本地目录 `/Users/yanren/Documents/github/word-house`，独立公开仓库 https://github.com/ZhiYanRen/word-house ，只在 main 开发提交推送。
-- 正式网址首次部署中，成功并访问核验后回填。Pages 来源 GitHub Actions，工作流 `.github/workflows/pages.yml`，main push 和 workflow_dispatch 发布 dist/；PR 只验证。
+- 正式网址 https://zhiyanren.github.io/word-house/ ，已部署并访问核验。Pages 来源 GitHub Actions，工作流 `.github/workflows/pages.yml`，main push 和 workflow_dispatch 发布 dist/；PR 只验证。
 - Node.js 22.16+，`npm ci`，`npm test`，`npm run build`，`npm start`（4176），`npm run test:browser`，`git diff --check`。
 - public/index.html 为原生静态应用，speechSynthesis 播放设备英语语音；错词仅 localStorage，原本机 file:// 数据不自动迁移，不能宣称跨设备同步。
 - Logo 源文件 public/assets/logo.svg；构建生成 favicon PNG、180px apple-touch-icon 与192/512px manifest 图标；相对路径适配项目子路径。品牌约定见 DESIGN.md。
